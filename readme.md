@@ -2,15 +2,15 @@
 This project demonstrates how to implement CRUD (Create, Read, Update, Delete) operations along with user authentication (login and logout) in a Django application.
 
 ## **Prerequisites**
-    - `Python 3.x`
-    - `Django 3.x or later`
-    - `Virtualenv (optional but recommended)`
+    - Python 3.x
+    - Django 3.x or later
+    - Virtualenv (optional but recommended)
 
 ## **Setup**
 1. **Clone the repository**
 
-    - `git clone https://github.com/yourusername/yourproject.git`
-    - `cd dcrm`
+    - git clone https://github.com/yourusername/yourproject.git
+    - cd dcrm
 
 2. **Create and activate a virtual environment**
    - `python -m venv venv`
@@ -18,9 +18,9 @@ This project demonstrates how to implement CRUD (Create, Read, Update, Delete) o
 
 
 3. **Install dependencies**
-   - `pip install django`
-   - `pip install mysql`
-   - `pip install mysql-connector` (if this doesn't work then try `pip install mysql-connector-python`)
+   - pip install django
+   - pip install mysql
+   - pip install mysql-connector` (if this doesn't work then try `pip install mysql-connector-python`)
 
 
 4. **Run migrations**
