@@ -24,25 +24,26 @@ This project demonstrates how to implement CRUD (Create, Read, Update, Delete) o
 
 
 4. **Run migrations**
-    - `python manage.py makemigrations`
-    - `python manage.py migrate`
+    - python manage.py makemigrations
+    - python manage.py migrate
 
 5. **Create a superuser**
-    - `python manage.py createsuperuser`
+    - python manage.py createsuperuser
 
 6. **Run the server**
-    - `python manage.py runserver`
+    - python manage.py runserver
 
 
 **Application Structure**
-    - `models.py: Defines the Record model used for CRUD operations.`
-    - `forms.py: Contains the AddRecordForm for creating and updating records.`
-    - `views.py: Contains views for handling CRUD operations and user authentication.`
-    - `urls.py: URL configuration for routing requests to appropriate views.`
-    - `templates/: HTML templates for rendering the pages.`
+- `models.py`: Defines the Record model used for CRUD operations.
+- `forms.py`: Contains the AddRecordForm for creating and updating records.
+- `views.py`: Contains views for handling CRUD operations and user authentication.
+- `urls.py`: URL configuration for routing requests to appropriate views.
+- `templates/`: HTML templates for rendering the pages.
+
 
 **Summary**
-    - `This README provides a comprehensive guide to set up a Django project with CRUD operations and user authentication. Follow the instructions to get your project up and running. For further customization and enhancement, refer to the Django documentation.`
+    - This README provides a comprehensive guide to set up a Django project with CRUD operations and user authentication. Follow the instructions to get your project up and running. For further customization and enhancement, refer to the Django documentation.
 
 **SCREENSHOTS**
 ![Login](Screenshots/Login.PNG)
