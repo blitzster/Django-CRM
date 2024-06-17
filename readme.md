@@ -9,7 +9,7 @@ This project demonstrates how to implement CRUD (Create, Read, Update, Delete) o
 ## **Setup**
 1. **Clone the repository**
 
-    - git clone https://github.com/yourusername/yourproject.git
+    - git clone [https://github.com/blitzster/Django-CRM.git]
     - cd dcrm
 
 2. **Create and activate a virtual environment**
