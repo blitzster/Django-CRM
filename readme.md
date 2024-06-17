@@ -9,7 +9,7 @@ Virtualenv (optional but recommended)
 ## **Setup**
 1. **Clone the repository**
 
-git clone https://github.com/yourusername/yourproject.git
+git clone (https://github.com/blitzster/Django-CRM)
 cd dcrm
 
 2. **Create and activate a virtual environment**
@@ -17,16 +17,18 @@ python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
 3. **Install dependencies**
-pip install -r requirements.txt
+pip install django
+pip install mysql
+pip install mysql-connector  **if this dosen't work then try pip install mysql-connector-python
 
-4. **Run migrations**
+5. **Run migrations**
 python manage.py makemigrations
 python manage.py migrate
 
-5. **Create a superuser**
+6. **Create a superuser**
 python manage.py createsuperuser
 
-6. **Run the server**
+7. **Run the server**
 python manage.py runserver
 
 
@@ -39,3 +41,5 @@ templates/: HTML templates for rendering the pages.
 
 **Summary**
 This README provides a comprehensive guide to set up a Django project with CRUD operations and user authentication. Follow the instructions to get your project up and running. For further customization and enhancement, refer to the Django documentation.
+
+
